@@ -1,5 +1,6 @@
 # basicons  
-Originally by preciousm.co &amp; Solomon Omojola
+[basicons.xyz](https://basicons.xyz/)  
+Originally by preciousm.co &amp; Solomon Omojola  
 The script embed on their site broke, so I hastily wrote a backup one.
 
 ---
