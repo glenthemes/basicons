@@ -1,0 +1,28 @@
+.basicons {
+	display:inline-block;
+	speak: never;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	line-height:var(--Basicons-Icon-Size);
+	vertical-align:middle;
+}
+
+.basicons svg {
+	display:block;
+	width:var(--Basicons-Icon-Size);
+	height:var(--Basicons-Icon-Size);
+}
+
+.basicons svg [stroke]{
+	stroke:var(--Basicons-Icon-Color);
+}
+
+.basicons svg [fill]{
+	fill:var(--Basicons-Icon-Color);
+}
+
+.basicons svg [stroke-width]{
+	stroke-width:1.5;
+}
