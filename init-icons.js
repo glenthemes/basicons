@@ -18,6 +18,9 @@ function initBasicons(){
 		})
 		.then(svgspec => {
 		  bsc.innerHTML = svgspec;
+		  if(bsc.querySelectorAll("meta[name='viewport']").length){
+		    bsc.innerHTML = "";
+		  }
 		});
 		
 		// add .basicons class at the start of each
