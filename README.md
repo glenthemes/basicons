@@ -29,7 +29,7 @@ There is a possibility that the icon name they provide on their site is inaccura
 If you want to use different styling for separate divs (e.g. `.header-div`), add this css:
 ```
 .header-div .basicons {
-  --Basicons-Icon-Size:calc(var(--Post-Buttons-Size) + 5px); /* or whatever */
-  --Basicons-Icon-Color:#666; /* or whatever */
+    --Basicons-Icon-Size:calc(var(--Post-Buttons-Size) + 5px); /* or whatever */
+    --Basicons-Icon-Color:#666; /* or whatever */
 }
 ```
