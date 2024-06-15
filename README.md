@@ -1,35 +1,46 @@
-# basicons  
-[basicons.xyz](https://basicons.xyz/)  
-Originally by preciousm.co &amp; Solomon Omojola  
-The script embed on their site broke, so I wrote a backup one.
+### Basicons by Solomon Omojola
+
+**Disclaimer:** Full ownership of these icons belong to Solomon Omojola.\
+**Site:** [basicons.xyz](https://basicons.xyz)\
+**GitHub:** [github.com/PreciousME/react-basicons](https://github.com/PreciousME/react-basicons) (outdated)\
+**Icons list:** [basicons.gitlab.io/i/@/icons-list](https://basicons.gitlab.io/i/@/icons-list)
+
+Last updated: 2024-06-15 3:22PM (GMT-7)
 
 ---
 
-## HOW TO USE:
-Paste this after `<head>`:
+⏳ If you're here for the SVG version (2021), view [this page](github.com/glenthemes/basicons/blob/gh-pages/2021/README.md) instead.
+
+---
+
+#### 🌟 HOW TO USE:
+Under `<head>` in your site, paste the following:
+```html
+<link href="https://basicons.gitlab.io/i/@/icons.css" rel="stylesheet" crossorigin>
 ```
-<script src="https://glenthemes.github.io/basicons/init-icons.js"></script>
-<link href="https://glenthemes.github.io/basicons/style.css" rel="stylesheet">
+
+To use an icon, paste the following line where you want your icon to be:
+```html
+<i class="basicons" icon-name="fish-4"></i>
 ```
-To set the general size and color of the icons, add this to your CSS:
-```
-:root {
-    --Basicons-Icon-Size:20px;
-    --Basicons-Icon-Color:#beabea;
+
+Choose an icon from [the list](https://basicons.gitlab.io/i/@/icons-list), copy the name and paste it between the `""` of `icon-name=""`.  
+(in this case, replace `fish-4`).
+
+---
+
+#### 🌟 HOW TO CUSTOMIZE:
+
+You can change the icon's style (e.g. size and color) like you would with any regular font:
+```css
+.basicons {
+    font-size: 20px;
+    color: #beabea;
 }
 ```
-To use an icon, choose one from [the list]([https://basicons.xyz](https://web.archive.org/web/20211223025135/https://basicons.xyz/)).  
-If you cannot see a section titled `Code` followed by a pale gray box at the bottom of the right sidebar, you need to **zoom out**.  
-Once you've picked an icon, copy its code from said gray box.  
-Paste it where you like in your HTML
-`<i class="bsc-icon-name"></i>`  
 
-There is a possibility that the icon name they provide on their site is inaccurate or outdated. If you copied the icon code correctly but the icon isn't showing up, go to [github.com/solomon-fibonacci/react-basicons/tree/main/svg](https://github.com/solomon-fibonacci/react-basicons/tree/main/svg) and try to find the correct name for the icon.  
+---
 
-If you want to use different styling for separate divs (e.g. `.header-div`), add this css:
-```
-.header-div .basicons {
-    --Basicons-Icon-Size:calc(var(--Post-Buttons-Size) + 5px); /* or whatever */
-    --Basicons-Icon-Color:#666; /* or whatever */
-}
-```
+#### 🌟 TROUBLESHOOTING / QUESTIONS:
+💌 [discord.gg/RcMKnwz](https://discord.gg/RcMKnwz)\
+📫 [glenthemes.exe@gmail.com](mailto:glenthemes.exe@gmail.com)
