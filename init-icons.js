@@ -24,7 +24,7 @@ window.basicons = function(){
 			})
 			.then(svgspec => {
 			  bsc.innerHTML = svgspec;
-			  if(bsc.querySelectorAll("meta[name='viewport']").length){
+			  if(bsc.querySelectorAll("[class*='bsc-'] > meta[http-equiv='Content-Security-Policy']").length){
 				bsc.innerHTML = "";
 			  }
 			}).catch(error => {
