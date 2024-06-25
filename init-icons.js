@@ -26,6 +26,7 @@ window.basicons = function(){
 			  bsc.innerHTML = svgspec;
 			  if(bsc.querySelectorAll("[class*='bsc-'] > meta[http-equiv='Content-Security-Policy']").length){
 				bsc.innerHTML = "";
+                console.info(`basicons: ${bsc_name} name not found.`)
 			  }
 			}).catch(error => {
 				console.error(error)
