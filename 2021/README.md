@@ -5,6 +5,10 @@ The script embed on their site broke, so I wrote a backup one.
 
 ---
 
+I highly recommend using the 2024 CSS icon font version, you can find it [here](//git.new/basicons).
+
+---
+
 ## HOW TO USE:
 Paste this after `<head>`:
 ```html
