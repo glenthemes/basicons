@@ -5,11 +5,11 @@
 **GitHub:** [github.com/PreciousME/react-basicons](https://github.com/PreciousME/react-basicons) (outdated)\
 **Icons list:** [basicons.gitlab.io/i/@/icons-list](https://basicons.gitlab.io/i/@/icons-list)
 
-Last updated: 2024-06-15 3:22PM (GMT-7)
+Last updated: 2024-06-24 8:32PM (GMT-7)
 
 ---
 
-⏳ If you're here for the SVG version (2021), view [this page](github.com/glenthemes/basicons/blob/gh-pages/2021/README.md) instead.
+⏳ If you're here for the SVG version (2021), view [this page](//github.com/glenthemes/basicons/blob/gh-pages/2021/README.md) instead.
 
 ---
 
