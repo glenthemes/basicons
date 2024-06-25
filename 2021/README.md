@@ -24,7 +24,7 @@ Once you've picked an icon, copy its code from said gray box.
 Paste it where you like in your HTML
 `<i class="bsc-icon-name"></i>`  
 
-There is a possibility that the icon name they provide on their site is inaccurate or outdated. If you copied the icon code correctly but the icon isn't showing up, go to [git.new/basicons-2021](https://git.new/basicons-2021) and try to find the correct name for the icon.  
+There is a possibility that the icon name they provide on their site is inaccurate or outdated. If you copied the icon code correctly but the icon isn't showing up, go to [git.new/basicons-2021](https://git.new/basicons-2021-list) and try to find the correct name for the icon.  
 
 If you want to use different styling for separate divs (e.g. `.header-div`), add this css:
 ```css
