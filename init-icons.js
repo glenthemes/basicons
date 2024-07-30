@@ -10,7 +10,7 @@
 
 window.basicons = function(){
 	let initBasicons = () => {
-		document.querySelectorAll("[class*='bsc-']")?.forEach(bsc => {
+		document.querySelectorAll("[class*='bsc-']:not(.basicons)")?.forEach(bsc => {
 			// identify bsc icon string
 			let bsc_name = bsc.getAttribute("class").split("bsc-").pop();
 			if(bsc_name.indexOf(" ") > -1){
@@ -34,7 +34,7 @@ window.basicons = function(){
 
 			// add .basicons class at the start of each
 			let cur_classes = bsc.getAttribute("class");
-			bsc.setAttribute("class","basicons " + cur_classes)
+			!bsc.matches(".basicons") ? bsc.setAttribute("class","basicons " + cur_classes) : null
 		})
 		
 	}
@@ -44,4 +44,7 @@ window.basicons = function(){
     initBasicons();
 }
 
+window.initBasicons = basicons;
+
 basicons();
+initBasicons()
