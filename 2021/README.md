@@ -22,7 +22,8 @@ To set the general size and color of the icons, add this to your CSS:
     --Basicons-Icon-Color:#beabea;
 }
 ```
-To use an icon, choose one from [the list]([https://basicons.xyz](//dub.sh/basicons-2021)).  
+To use an icon, choose one from [the list](//dub.sh/basicons-2021).
+
 If you cannot see a section titled `Code` followed by a pale gray box at the bottom of the right sidebar, you need to **zoom out**.  
 Once you've picked an icon, copy its code from said gray box.  
 Paste it where you like in your HTML
